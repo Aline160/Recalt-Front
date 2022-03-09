@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeoRecalt</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   <link rel="stylesheet" href="/css/quemsomos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/faleconosco.css">
+    <title> REC ALT</title>
+  
+
    
 </head>
-<body>
-    
+<body class="fundo">
   <nav class="navbar ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><h5 class="logo"><strong>REC ALT</strong></h5></a>
+      <a class="navbar-brand" href="#"><h5><strong>REC ALT</strong></h5></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon" >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -25,13 +28,13 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"     aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-          
+          <button type="button" class="Menu" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
         
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><h6>Quem Somos?</h6> </a>
+              <a class="nav-link active" aria-current="page" href="/html/quemsomos.html"><h6>Quem Somos?</h6> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><h6>Fale Conosco</h6></a>
@@ -52,39 +55,50 @@
       </div>
     </div>
   </nav>
+      
     
-    <h1 class="QS">Quem Somos?</h1>
+    
 
-    <p class="quemsomos">
+ 
+ <img class="imagem" src="/img/gih.jpg" alt=" foto de um cemiterio">
+    <h1 class="faleconosco"> Fale Conosco</h1>
 
-     O Recife Alternativo foi criado em Janeiro de 2022 com um objetivo dos jovens e da professora Aline Pereira para o projeto do SENAC.  O projeto tem como iniciativa do senac avaliar o aprendizado dos alunos.  Somos jovens com uma missao,  criar um site sobre pontos turisticos assombrados ,o projeto foi proporcionado pela ong "Samaritanos " junto com o "Senac"  e a igreja "A Ponte" onde era realizado o curso.
+<div class="menu">
+  
+    <table>
+    <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="nome" size="40"> <br /></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td> <input type="text" email="email" size="40"> <br /></td>
+    </tr>
+    <tr>
+      <td class="caixa">Mensagem:</td>
        
-        Nossa missão é apresentar ao pùblico "pontos turisticos assombrados" em recife como tambèm despertar nas pessoas
-        a curiosidade de como è estar em um lugar com a fama de assombrado, Vamos mostrar a  voce os lugares assombrados em  recife , e você vai sentir essa adrenalina conosco, Recife alternativo "o Recife Que Ninguèm Conhece"
+    </tr>
+  </table>
+  <textarea  rows="4" cols="43" > </textarea>
+       
+    
         
-    </p>
 
-  <p class="bor">
-      Colaboradores
-  </p>
+    <form>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
 
- <figure>
-  <img class="ft" src="/img/NOS.jpg" alt="">
-  <figcaption class="nome"> Prof: Aline Pereira , Ana Luiza , Ana karolina , Edson Cabral , 
-    Giséli Santos, Gustavo Henrique  ,
-    Lucas Almeida ,  Paula Gabriela ,
-   Pedro Guilherme e William Vitor.</figcaption>
- </figure>
 
-<footer>
-    <div class="contato ">
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="footer"> contato: recifealtern4tivo@gmail.com</p>
-            </div>
-        </div>
-    </div>
-</footer>
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
