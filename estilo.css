@@ -14,11 +14,11 @@ background-color: black;
 }
 
 .bor{
-    margin-left: 100px;
+    margin-left: 500px;
   margin-top: 50px;
    color: white;
    background-color: #93201C;
-   margin-right: 1000px;
+   margin-right: 550px;
    text-align: center;
    font-family: sans-serif;
    
@@ -55,4 +55,7 @@ background-color: black;
     width: auto;
     height: auto;
    margin-left: 400px;
+}
+.footer{
+    font-size: 13px;
 }
