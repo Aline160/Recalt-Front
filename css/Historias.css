@@ -1,11 +1,11 @@
 
 
 .fundo{
-    background-color: rgb(53, 55, 66);
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar{
-    background-color: rgb(117, 35, 32);
+    background-color: rgb(147, 32, 28);
 }
 
 svg{
@@ -15,7 +15,7 @@ svg{
 }
 
 .navbar-toggler-icon{
-    color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
@@ -24,11 +24,11 @@ svg{
 }
 
 .navbar-toggler{
-    color: rgb(255, 255, 255);
+    color: rgb(147, 32, 28);
 }
 
-h5{
-    font-size: 250px;
+.logo{
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }

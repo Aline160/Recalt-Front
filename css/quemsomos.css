@@ -12,14 +12,14 @@ h6{
     color: black;
 }
 
-h5{
-    font-size: 250px;
+.logo{
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(194,78,42);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-toggler-icon{
-color: rgb(5,5,5);
+color: rgb(0, 0, 0);
 margin-right: 20px;
 }
 
@@ -28,7 +28,7 @@ margin-right: 20px;
 }
 
 .navbar-toggler{
-    color: rgb(228,211,211);
+    color: rgb(147, 32, 28);
 }
 
 .QS{

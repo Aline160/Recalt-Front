@@ -62,9 +62,9 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 190px;
+    margin-left: 240px;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .faleconosco{
@@ -83,9 +83,9 @@ button {
 }
 
 svg{
-    width: 50px;
+    width: 60px;
     height: 40px;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 h6{
@@ -93,14 +93,14 @@ h6{
     color: black;
 }
 
-h5{
+.logo{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 
 .navbar-toggler-icon{
-    color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
