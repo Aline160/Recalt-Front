@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: rgb(147, 32, 28);                    
+}
+
+svg{
+    width: 50px;
+    height: 40px;
+    margin-top: -5px;
+}
+
+h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+h5{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: rgb(5, 5, 5);
+    margin-right: 20px;
+}
+
+.offcanvas-title{
+    color: rgb(97, 83, 83);
+}
+
+.navbar-toggler{
+    color: rgb(147, 32, 28);
+}
+
+.imagem{
+    height: 400px;
+    border: 8px  white;
+    border-style:ridge;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+h1{
+    margin-left: 850px;
+    margin-top: 120px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    text-align: justify;
+    justify-items: flex-start;
+    width: 500px;
+    margin-top: -400px;
+    margin-left: 30px;
+}
+.texto{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 750px;
+}
