@@ -7,9 +7,9 @@ body{
 }
 
 svg{
-    width: 50px;
+    width: 60px;
     height: 40px;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 h6{
@@ -17,14 +17,14 @@ h6{
     color: black;
 }
 
-h5{
+.logo{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 
 .navbar-toggler-icon{
-    color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
@@ -34,6 +34,10 @@ h5{
 
 .navbar-toggler{
     color: rgb(147, 32, 28);
+}
+
+input{
+    margin-left: 37px;
 }
 
 .imagem{
