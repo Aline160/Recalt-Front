@@ -116,3 +116,14 @@ p{
 p{
     align-items: justify;
 }
+
+.contato{
+    background-color: #93201C;
+    margin-top: 90px;
+    height: 35px;
+}
+.barra{
+    background-color: #93201C;
+    margin-top: 390px;
+    height: 35px;
+}
